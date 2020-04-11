@@ -260,9 +260,9 @@ Fishing:
 			}
 
 			Sleep 100
-				ControlClick, , ahk_id %id%, ,Right, , NAD
+				ControlClick, , ahk_id %id%, ,Left, , NAD
 			Sleep 500
-				ControlClick, , ahk_id %id%, ,Right, , NAU
+				ControlClick, , ahk_id %id%, ,Left, , NAU
 		}
 	Return
 }
